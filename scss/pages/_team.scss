@@ -1,0 +1,26 @@
+p {
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+}
+
+.team {
+    padding: 80px 0;
+    background: $tw;
+}
+
+.team-member {
+    margin-bottom: 50px;
+}
+
+.team-member h4 {
+    margin: 0;
+    color: $fb;
+}
+
+.member-info {
+    padding: 20px 0;
+}
+
+.team-member img {
+    width: $w;
+}

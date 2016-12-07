@@ -1,0 +1,147 @@
+#blog {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+}
+
+aside {
+	width: 32%;
+	float: right;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+	box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+aside p {
+	color: $fb;
+}
+
+aside a {
+	color: $fb;
+}
+
+.form-control {
+	padding: 0;
+	border: none;
+	border-bottom: 1px solid #eee;
+	border-radius: 0;
+	box-shadow: none;
+	color: $fb;
+}
+
+input.form-control:focus {
+	border: none;
+	border-bottom: 1px solid $fb;
+	box-shadow: none;
+}
+
+aside .btn-default {
+	background: $fb;
+	border: 1px solid transparent;
+	color: $tw;
+	font-size: 14px;
+	width: 150px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+aside .btn-default:hover {
+	background: transparent;
+	border: 1px solid $fb;
+	color: $fb;
+}
+
+.a-links a {
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+.a-links a:hover {
+	color: $fb;
+}
+
+.a-links a:last-child {
+	border-bottom: none;
+}
+
+.a-links h4 {
+	padding-top: 50px;
+}
+
+#posts {
+	width: 65%;
+}
+
+.post {
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 80px;
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+	-moz-box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+	box-shadow: 1px 1px 5px 1px rgba(238,238,238,1);
+}
+
+.post-img {
+	width: 100%;
+}
+
+.post-img img {
+	width: 100%;
+	height: auto;
+}
+
+.post-info {
+	margin: 30px;
+}
+
+.post-info h3 {
+	color: $fb;
+	width: 80%;
+}
+
+.post-info span {
+	float: right;
+	margin-top: -65px;
+	color: #777;
+}
+
+.post-info p {
+	margin-top: 20px;
+}
+
+.post-info a {
+	color:$fb;
+	text-transform: uppercase;
+}
+
+#posts h3 {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.pagination {
+	float: left;
+}
+
+.pagination .active a,
+.pagination .active a:hover {
+	background: #34495e;
+}
+
+@media(max-width: 767px) {
+	aside {
+		width: 100%;
+		float: unset;
+		display: none;
+	}
+
+	#posts {
+		width: 100%;
+	}
+}

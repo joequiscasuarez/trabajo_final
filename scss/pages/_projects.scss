@@ -1,0 +1,94 @@
+.project {
+    width: 100%;
+    padding: 0;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 500px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 80px;
+    display: table;
+}
+
+.project-info2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 500px;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 80px;
+    display: table;
+}
+
+.project-info h3,
+.project-info2 h3,
+.project-info p,
+.project-info2 p {
+    color: $tw;
+}
+
+.project-info h3,
+.project-info2 h3 {
+    margin: 0;
+}
+
+.project-info p,
+.project-info2 p {
+    margin-top: 20px;
+}
+
+.project-info span,
+.project-info2 span {
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pinfo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.page {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+@media(max-width: 1118px) {
+    .project-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        text-align: center;
+        padding: 80px;
+        display: table;
+    }
+    
+    .project-info2 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        text-align: center;
+        padding: 80px;
+        display: table;
+    }
+}

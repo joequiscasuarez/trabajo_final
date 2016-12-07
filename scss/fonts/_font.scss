@@ -1,0 +1,135 @@
+.style_title_menu_zeal{
+    font-size:20.5px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1.6px;
+    font-weight:800;
+}
+
+.style_menu_zeal{
+    font-size:12px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:0.6px;
+    font-weight:600;
+}
+
+.style_menu_h2{
+    font-size:55px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1px;
+    font-weight:400;
+}
+
+.style_menu_h2_description{
+    font-size:21px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1.2px;
+    font-weight:400;
+    word-spacing:0;
+}
+
+.style-form-text{
+    color:#5a5a8c;
+    font-weight:700;
+    letter-spacing:2px;
+    font-size:12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+.style_number_phone{
+    font-size:13px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:0.9px;
+    font-weight:300;
+}
+
+
+
+.style_paragraph_help{
+    font-size:14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    letter-spacing:0.85px;
+    line-height:1.6;
+    
+}
+
+.style_form_help{
+    color:#5a5a8c;
+    font-size:15px;
+    font-weight:600;
+    font-family: 'Raleway', sans-serif;
+    word-spacing:1px;
+    letter-spacing:0.69px;
+    line-height:1.4;
+}
+
+
+
+
+
+.style_title_h2{
+    font-size:42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+}
+
+
+.style_title_city{
+    letter-spacing:1.3px;
+    font-size:12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+}
+
+.style_address_city{
+    letter-spacing:0.3px;
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+    word-spacing:0.5px;
+}
+
+.style_address_mail{
+    letter-spacing:0.4px;
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+    word-spacing:0.5px;
+}
+
+.style_name_zeal{
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    letter-spacing:2px;
+    font-weight:500;
+}
+
+.style_title_news{
+    letter-spacing:1.2px;
+    font-size:12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.style_title_zeal{
+    letter-spacing:1.06px;
+    font-size:21px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.style_summary_news{
+   font-size:17px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:0.48px;
+    line-height:1.53;
+}
+
+
+@media screen and (max-width: 991px){
+    .style_summary_news{
+        font-size:14px;
+    }
+}
